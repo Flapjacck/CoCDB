@@ -35,3 +35,6 @@ go run main.go
 ## API Endpoints
 
 - `GET /health` - Health check endpoint
+- `GET /api/data/{path}` - Retrieve JSON data from the data directory
+  - Example: `GET /api/data/home_village/buildings/defensive/cannon`
+  - Example: `GET /api/data/home_village/troops/elixir/barbarian`
