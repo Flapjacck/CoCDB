@@ -1,0 +1,99 @@
+{
+    "name": "Building Name",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Brief description of the building and its purpose",
+    // Building availability across Town Hall levels
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            }
+        ]
+    },
+    // Attack characteristics of the building
+    "attack": {
+        "range": 6,
+        "attackSpeed": 1.1,
+        "damageType": "Splash",
+        "splashRadius": 1.5,
+        "favoriteTarget": "Ground",
+        "targetTypes": [
+            "Ground"
+        ],
+        "notes": "Additional attack behavior notes if applicable"
+    },
+    // Main building stats across all levels
+    "levels": [
+        {
+            "level": 1,
+            "damagePerSecond": 24,
+            "damagePerShot": 26.4,
+            "damageOnDestruction": 150,
+            "hitpoints": 650,
+            "cost": {
+                "amount": 700000,
+                "currency": "gold"
+            },
+            "buildTime": "12h",
+            "experienceGained": 207,
+            "townHallRequired": 8,
+            "notes": "Optional notes for specific level"
+        }
+    ],
+    // Optional: Different attack modes (for buildings like Inferno Tower)
+    "modes": [
+        {
+            "name": "Single-Target Mode",
+            "levels": [
+                {
+                    "level": 1,
+                    "damagePerSecond": {
+                        "initial": 30,
+                        "after1_5s": 80,
+                        "after5_25s": 800
+                    },
+                    "damagePerHit": {
+                        "initial": 3.84,
+                        "after1_5s": 10.24,
+                        "after5_25s": 102.4
+                    }
+                }
+            ]
+        }
+    ],
+    // Optional: Supercharges available at max level on specific TH
+    "supercharges": [
+        {
+            "chargeLevel": 1,
+            "damagePerSecond": 127,
+            "damagePerShot": 139.7,
+            "hitpoints": 3050,
+            "cost": {
+                "amount": 6000000,
+                "currency": "gold"
+            },
+            "buildTime": "2d 12h",
+            "experienceGained": 464,
+            "townHallRequired": 18,
+            "notes": "Available once max level is reached at TH 18"
+        }
+    ],
+    // Optional: Special upgrades like Gear Up
+    "specialUpgrades": [
+        {
+            "name": "Gear Up",
+            "cost": {
+                "amount": 1000000,
+                "currency": "gold"
+            },
+            "buildTime": "2d",
+            "requiredLevel": 7,
+            "effect": "Doubles building stats when merged with related building"
+        }
+    ]
+}
