@@ -1,0 +1,177 @@
+{
+    "name": "Ricochet Cannon",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Advanced cannon that fires shots that ricochet between multiple targets",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 3
+            }
+        ]
+    },
+    "attack": {
+        "range": 9,
+        "attackSpeed": 0.8,
+        "damageType": "Ricochet Shot",
+        "favoriteTarget": "Ground",
+        "targetTypes": [
+            "Ground"
+        ]
+    },
+    "levels": [
+        {
+            "level": 1,
+            "damagePerSecond": 360,
+            "damagePerShot": 288,
+            "hitpoints": 5400,
+            "cost": {
+                "amount": 12000000,
+                "currency": "gold"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 16
+        },
+        {
+            "level": 2,
+            "damagePerSecond": 390,
+            "damagePerShot": 312,
+            "hitpoints": 5700,
+            "cost": {
+                "amount": 13000000,
+                "currency": "gold"
+            },
+            "buildTime": "8d",
+            "experienceGained": 831,
+            "townHallRequired": 16
+        },
+        {
+            "level": 3,
+            "damagePerSecond": 405,
+            "damagePerShot": 324,
+            "hitpoints": 6000,
+            "cost": {
+                "amount": 17500000,
+                "currency": "gold"
+            },
+            "buildTime": "10d 18h",
+            "experienceGained": 963,
+            "townHallRequired": 17
+        },
+        {
+            "level": 4,
+            "damagePerSecond": 412,
+            "damagePerShot": 329.6,
+            "hitpoints": 6100,
+            "cost": {
+                "amount": 26500000,
+                "currency": "gold"
+            },
+            "buildTime": "13d 12h",
+            "experienceGained": 1080,
+            "townHallRequired": 18
+        }
+    ],
+    "supercharges": [
+        {
+            "chargeLevel": 1,
+            "damagePerSecond": 420,
+            "damagePerShot": 336,
+            "hitpoints": 6100,
+            "cost": {
+                "amount": 12000000,
+                "currency": "gold"
+            },
+            "buildTime": "6d",
+            "experienceGained": 720,
+            "townHallRequired": 18
+        },
+        {
+            "chargeLevel": 2,
+            "damagePerSecond": 420,
+            "damagePerShot": 336,
+            "hitpoints": 6250,
+            "cost": {
+                "amount": 10000000,
+                "currency": "gold"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 18
+        }
+    ],
+    "notes": "Can be merged with regular Cannon if it reaches Gear Up Level 7. Can be Supercharged at TH 18 once maximum level is reached."
+}

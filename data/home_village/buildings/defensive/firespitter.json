@@ -1,0 +1,121 @@
+{
+    "name": "Firespitter",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "High damage per hit defensive tower that fires heated projectiles",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 2
+            }
+        ]
+    },
+    "attack": {
+        "range": null,
+        "attackSpeed": null,
+        "damageType": "Unknown",
+        "favoriteTarget": "Unknown",
+        "targetTypes": []
+    },
+    "levels": [
+        {
+            "level": 1,
+            "damagePerSecond": 399,
+            "damagePerHit": 46,
+            "hitpoints": 4500,
+            "cost": {
+                "amount": 17000000,
+                "currency": "gold"
+            },
+            "buildTime": "11d",
+            "experienceGained": 974,
+            "townHallRequired": 17
+        },
+        {
+            "level": 2,
+            "damagePerSecond": 425,
+            "damagePerHit": 49,
+            "hitpoints": 5000,
+            "cost": {
+                "amount": 18000000,
+                "currency": "gold"
+            },
+            "buildTime": "11d 12h",
+            "experienceGained": 996,
+            "townHallRequired": 17
+        }
+    ],
+    "notes": "A new defensive building available only at high Town Hall levels"
+}

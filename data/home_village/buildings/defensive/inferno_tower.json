@@ -1,0 +1,381 @@
+{
+    "name": "Inferno Tower",
+    "type": "defensive",
+    "size": {
+        "width": 2,
+        "height": 2
+    },
+    "description": "Powerful defensive tower that increases damage over time and can switch between single-target and multi-target modes",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 3
+            }
+        ]
+    },
+    "attack": {
+        "range": 9,
+        "attackSpeed": 0.128,
+        "damageType": "Single Target",
+        "favoriteTarget": "Ground & Air",
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ],
+        "numberOfRounds": 1000
+    },
+    "modes": [
+        {
+            "name": "Single-Target Mode",
+            "description": "Focuses on a single unit with damage that increases over time",
+            "levels": [
+                {
+                    "level": 1,
+                    "damagePerSecond": {
+                        "initial": 30,
+                        "after1_5s": 80,
+                        "after5_25s": 800
+                    },
+                    "damagePerHit": {
+                        "initial": 3.84,
+                        "after1_5s": 10.24,
+                        "after5_25s": 102.4
+                    },
+                    "hitpoints": 1500,
+                    "cost": {
+                        "amount": 1000000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "12h",
+                    "experienceGained": 207,
+                    "townHallRequired": 10
+                },
+                {
+                    "level": 2,
+                    "damagePerSecond": {
+                        "initial": 35,
+                        "after1_5s": 100,
+                        "after5_25s": 1000
+                    },
+                    "damagePerHit": {
+                        "initial": 4.48,
+                        "after1_5s": 12.8,
+                        "after5_25s": 128
+                    },
+                    "hitpoints": 1800,
+                    "cost": {
+                        "amount": 1200000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "1d",
+                    "experienceGained": 293,
+                    "townHallRequired": 10
+                },
+                {
+                    "level": 3,
+                    "damagePerSecond": {
+                        "initial": 40,
+                        "after1_5s": 120,
+                        "after5_25s": 1200
+                    },
+                    "damagePerHit": {
+                        "initial": 5.12,
+                        "after1_5s": 15.36,
+                        "after5_25s": 153.6
+                    },
+                    "hitpoints": 2100,
+                    "cost": {
+                        "amount": 2400000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "2d",
+                    "experienceGained": 415,
+                    "townHallRequired": 10
+                },
+                {
+                    "level": 4,
+                    "damagePerSecond": {
+                        "initial": 45,
+                        "after1_5s": 140,
+                        "after5_25s": 1400
+                    },
+                    "damagePerHit": {
+                        "initial": 5.76,
+                        "after1_5s": 17.92,
+                        "after5_25s": 179.2
+                    },
+                    "hitpoints": 2400,
+                    "cost": {
+                        "amount": 3400000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "2d 12h",
+                    "experienceGained": 464,
+                    "townHallRequired": 11
+                },
+                {
+                    "level": 5,
+                    "damagePerSecond": {
+                        "initial": 50,
+                        "after1_5s": 150,
+                        "after5_25s": 1500
+                    },
+                    "damagePerHit": {
+                        "initial": 6.4,
+                        "after1_5s": 19.2,
+                        "after5_25s": 192
+                    },
+                    "hitpoints": 2700,
+                    "cost": {
+                        "amount": 4200000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "3d",
+                    "experienceGained": 509,
+                    "townHallRequired": 11
+                },
+                {
+                    "level": 6,
+                    "damagePerSecond": {
+                        "initial": 55,
+                        "after1_5s": 160,
+                        "after5_25s": 1600
+                    },
+                    "damagePerHit": {
+                        "initial": 7.04,
+                        "after1_5s": 20.48,
+                        "after5_25s": 204.8
+                    },
+                    "hitpoints": 3000,
+                    "cost": {
+                        "amount": 6000000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "4d",
+                    "experienceGained": 587,
+                    "townHallRequired": 12
+                },
+                {
+                    "level": 7,
+                    "damagePerSecond": {
+                        "initial": 65,
+                        "after1_5s": 180,
+                        "after5_25s": 1800
+                    },
+                    "damagePerHit": {
+                        "initial": 8.32,
+                        "after1_5s": 23.04,
+                        "after5_25s": 230.4
+                    },
+                    "hitpoints": 3300,
+                    "cost": {
+                        "amount": 8000000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "5d",
+                    "experienceGained": 657,
+                    "townHallRequired": 13
+                },
+                {
+                    "level": 8,
+                    "damagePerSecond": {
+                        "initial": 80,
+                        "after1_5s": 210,
+                        "after5_25s": 2100
+                    },
+                    "damagePerHit": {
+                        "initial": 10.24,
+                        "after1_5s": 26.88,
+                        "after5_25s": 268.8
+                    },
+                    "hitpoints": 3700,
+                    "cost": {
+                        "amount": 9500000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "6d",
+                    "experienceGained": 720,
+                    "townHallRequired": 14
+                },
+                {
+                    "level": 9,
+                    "damagePerSecond": {
+                        "initial": 100,
+                        "after1_5s": 230,
+                        "after5_25s": 2300
+                    },
+                    "damagePerHit": {
+                        "initial": 12.8,
+                        "after1_5s": 29.44,
+                        "after5_25s": 294.4
+                    },
+                    "hitpoints": 4000,
+                    "cost": {
+                        "amount": 10000000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "6d 12h",
+                    "experienceGained": 749,
+                    "townHallRequired": 15
+                },
+                {
+                    "level": 10,
+                    "damagePerSecond": {
+                        "initial": 120,
+                        "after1_5s": 260,
+                        "after5_25s": 2600
+                    },
+                    "damagePerHit": {
+                        "initial": 15.36,
+                        "after1_5s": 33.28,
+                        "after5_25s": 332.8
+                    },
+                    "hitpoints": 4400,
+                    "cost": {
+                        "amount": 11000000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "7d",
+                    "experienceGained": 777,
+                    "townHallRequired": 16
+                },
+                {
+                    "level": 11,
+                    "damagePerSecond": {
+                        "initial": 140,
+                        "after1_5s": 290,
+                        "after5_25s": 2900
+                    },
+                    "damagePerHit": {
+                        "initial": 17.92,
+                        "after1_5s": 37.12,
+                        "after5_25s": 371.2
+                    },
+                    "hitpoints": 4800,
+                    "cost": {
+                        "amount": 16000000,
+                        "currency": "gold"
+                    },
+                    "buildTime": "12d",
+                    "experienceGained": 1018,
+                    "townHallRequired": 17
+                }
+            ]
+        }
+    ],
+    "supercharges": [
+        {
+            "chargeLevel": 1,
+            "damagePerSecond": {
+                "initial": 150,
+                "after1_5s": 310,
+                "after5_25s": 3100
+            },
+            "damagePerHit": {
+                "initial": 19.2,
+                "after1_5s": 39.68,
+                "after5_25s": 396.8
+            },
+            "hitpoints": 4800,
+            "cost": {
+                "amount": 7000000,
+                "currency": "gold"
+            },
+            "buildTime": "2d 18h",
+            "experienceGained": 487,
+            "townHallRequired": 17,
+            "notes": "Available at TH 17+ after max level reached"
+        },
+        {
+            "chargeLevel": 2,
+            "damagePerSecond": {
+                "initial": 150,
+                "after1_5s": 310,
+                "after5_25s": 3100
+            },
+            "damagePerHit": {
+                "initial": 19.2,
+                "after1_5s": 39.68,
+                "after5_25s": 396.8
+            },
+            "hitpoints": 5000,
+            "cost": {
+                "amount": 4500000,
+                "currency": "gold"
+            },
+            "buildTime": "4d 6h",
+            "experienceGained": 605,
+            "townHallRequired": 17
+        }
+    ],
+    "notes": "Damage increases over time during attack. Can be upgraded with Supercharges at TH 17+ once maximum level is reached."
+}
