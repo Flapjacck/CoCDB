@@ -1,0 +1,388 @@
+{
+    "name": "Archer Tower",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Long-range single-target tower that attacks ground and air units.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 6
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 8
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 8
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 8
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 8
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 8
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 8
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 8
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 9
+            }
+        ]
+    },
+    "attack": {
+        "range": 10,
+        "attackSpeed": 0.5,
+        "damageType": "Single Target",
+        "favoriteTarget": null,
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ],
+        "notes": "Has a Long Range Mode; cannot be Supercharged (merge into Multi-Archer Tower)."
+    },
+    "levels": [
+        {
+            "level": 1,
+            "damagePerSecond": 11,
+            "damagePerShot": 5.5,
+            "hitpoints": 380,
+            "cost": {
+                "amount": 1000,
+                "currency": "gold"
+            },
+            "buildTime": "15s",
+            "experienceGained": 3,
+            "townHallRequired": 2
+        },
+        {
+            "level": 2,
+            "damagePerSecond": 15,
+            "damagePerShot": 7.5,
+            "hitpoints": 420,
+            "cost": {
+                "amount": 2000,
+                "currency": "gold"
+            },
+            "buildTime": "2m",
+            "experienceGained": 10,
+            "townHallRequired": 2
+        },
+        {
+            "level": 3,
+            "damagePerSecond": 19,
+            "damagePerShot": 9.5,
+            "hitpoints": 460,
+            "cost": {
+                "amount": 5000,
+                "currency": "gold"
+            },
+            "buildTime": "20m",
+            "experienceGained": 34,
+            "townHallRequired": 3
+        },
+        {
+            "level": 4,
+            "damagePerSecond": 25,
+            "damagePerShot": 12.5,
+            "hitpoints": 500,
+            "cost": {
+                "amount": 20000,
+                "currency": "gold"
+            },
+            "buildTime": "1h",
+            "experienceGained": 60,
+            "townHallRequired": 4
+        },
+        {
+            "level": 5,
+            "damagePerSecond": 30,
+            "damagePerShot": 15,
+            "hitpoints": 540,
+            "cost": {
+                "amount": 70000,
+                "currency": "gold"
+            },
+            "buildTime": "1h 30m",
+            "experienceGained": 73,
+            "townHallRequired": 5
+        },
+        {
+            "level": 6,
+            "damagePerSecond": 35,
+            "damagePerShot": 17.5,
+            "hitpoints": 580,
+            "cost": {
+                "amount": 80000,
+                "currency": "gold"
+            },
+            "buildTime": "2h",
+            "experienceGained": 84,
+            "townHallRequired": 5
+        },
+        {
+            "level": 7,
+            "damagePerSecond": 42,
+            "damagePerShot": 21,
+            "hitpoints": 630,
+            "cost": {
+                "amount": 150000,
+                "currency": "gold"
+            },
+            "buildTime": "3h",
+            "experienceGained": 103,
+            "townHallRequired": 6
+        },
+        {
+            "level": 8,
+            "damagePerSecond": 48,
+            "damagePerShot": 24,
+            "hitpoints": 690,
+            "cost": {
+                "amount": 200000,
+                "currency": "gold"
+            },
+            "buildTime": "4h",
+            "experienceGained": 120,
+            "townHallRequired": 7
+        },
+        {
+            "level": 9,
+            "damagePerSecond": 56,
+            "damagePerShot": 28,
+            "hitpoints": 750,
+            "cost": {
+                "amount": 400000,
+                "currency": "gold"
+            },
+            "buildTime": "5h",
+            "experienceGained": 134,
+            "townHallRequired": 8
+        },
+        {
+            "level": 10,
+            "damagePerSecond": 63,
+            "damagePerShot": 31.5,
+            "hitpoints": 810,
+            "cost": {
+                "amount": 460000,
+                "currency": "gold"
+            },
+            "buildTime": "6h",
+            "experienceGained": 146,
+            "townHallRequired": 8
+        },
+        {
+            "level": 11,
+            "damagePerSecond": 70,
+            "damagePerShot": 35,
+            "hitpoints": 890,
+            "cost": {
+                "amount": 600000,
+                "currency": "gold"
+            },
+            "buildTime": "7h",
+            "experienceGained": 158,
+            "townHallRequired": 9
+        },
+        {
+            "level": 12,
+            "damagePerSecond": 74,
+            "damagePerShot": 37,
+            "hitpoints": 970,
+            "cost": {
+                "amount": 700000,
+                "currency": "gold"
+            },
+            "buildTime": "8h",
+            "experienceGained": 169,
+            "townHallRequired": 10
+        },
+        {
+            "level": 13,
+            "damagePerSecond": 78,
+            "damagePerShot": 39,
+            "hitpoints": 1050,
+            "cost": {
+                "amount": 1000000,
+                "currency": "gold"
+            },
+            "buildTime": "10h",
+            "experienceGained": 189,
+            "townHallRequired": 10
+        },
+        {
+            "level": 14,
+            "damagePerSecond": 82,
+            "damagePerShot": 41,
+            "hitpoints": 1130,
+            "cost": {
+                "amount": 1100000,
+                "currency": "gold"
+            },
+            "buildTime": "11h",
+            "experienceGained": 198,
+            "townHallRequired": 11
+        },
+        {
+            "level": 15,
+            "damagePerSecond": 85,
+            "damagePerShot": 42.5,
+            "hitpoints": 1230,
+            "cost": {
+                "amount": 1300000,
+                "currency": "gold"
+            },
+            "buildTime": "12h",
+            "experienceGained": 207,
+            "townHallRequired": 11
+        },
+        {
+            "level": 16,
+            "damagePerSecond": 90,
+            "damagePerShot": 45,
+            "hitpoints": 1310,
+            "cost": {
+                "amount": 1600000,
+                "currency": "gold"
+            },
+            "buildTime": "16h",
+            "experienceGained": 240,
+            "townHallRequired": 12
+        },
+        {
+            "level": 17,
+            "damagePerSecond": 100,
+            "damagePerShot": 50,
+            "hitpoints": 1390,
+            "cost": {
+                "amount": 1800000,
+                "currency": "gold"
+            },
+            "buildTime": "20h",
+            "experienceGained": 268,
+            "townHallRequired": 12
+        },
+        {
+            "level": 18,
+            "damagePerSecond": 110,
+            "damagePerShot": 55,
+            "hitpoints": 1510,
+            "cost": {
+                "amount": 2000000,
+                "currency": "gold"
+            },
+            "buildTime": "1d",
+            "experienceGained": 293,
+            "townHallRequired": 13
+        },
+        {
+            "level": 19,
+            "damagePerSecond": 120,
+            "damagePerShot": 60,
+            "hitpoints": 1600,
+            "cost": {
+                "amount": 2200000,
+                "currency": "gold"
+            },
+            "buildTime": "1d 6h",
+            "experienceGained": 328,
+            "townHallRequired": 13
+        },
+        {
+            "level": 20,
+            "damagePerSecond": 135,
+            "damagePerShot": 67.5,
+            "hitpoints": 1700,
+            "cost": {
+                "amount": 3000000,
+                "currency": "gold"
+            },
+            "buildTime": "1d 12h",
+            "experienceGained": 360,
+            "townHallRequired": 14
+        },
+        {
+            "level": 21,
+            "damagePerSecond": 145,
+            "damagePerShot": 72.5,
+            "hitpoints": 1800,
+            "cost": {
+                "amount": 4000000,
+                "currency": "gold"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "townHallRequired": 15
+        }
+    ],
+    "specialUpgrades": [
+        {
+            "name": "Gear Up",
+            "cost": {
+                "amount": 3000000,
+                "currency": "gold"
+            },
+            "buildTime": "7d",
+            "canBeUpgradedAtLevel": 10,
+            "requiredBuilderBaseLevel": 6,
+            "effect": "Gear Up increases stats (see game descriptions)."
+        }
+    ],
+    "notes": "This building cannot be Supercharged because it merges into the Multi-Archer Tower. Availability numbers with asterisk depend on Multi-Archer Tower / Multi-Gear Tower builds.",
+    "source": "Clash of Clans Wiki - Archer Tower",
+    "source_url": "https://clashofclans.fandom.com/wiki/Archer_Tower",
+    "source_license": "CC BY-SA 3.0"
+}

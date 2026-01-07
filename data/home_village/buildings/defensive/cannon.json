@@ -378,5 +378,8 @@
             "effect": "Doubles building stats when merged with Double Cannon"
         }
     ],
-    "notes": "The Cannon can no longer be Supercharged as it can be merged into Ricochet Cannon"
+    "notes": "The Cannon can no longer be Supercharged as it can be merged into Ricochet Cannon",
+    "source": "Clash of Clans Wiki - Cannon",
+    "source_url": "https://clashofclans.fandom.com/wiki/Cannon",
+    "source_license": "CC BY-SA 3.0"
 }

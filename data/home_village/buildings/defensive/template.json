@@ -95,5 +95,8 @@
             "requiredLevel": 7,
             "effect": "Doubles building stats when merged with related building"
         }
-    ]
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/",
+    "source_license": "CC BY-SA 3.0"
 }

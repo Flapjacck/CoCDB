@@ -377,5 +377,8 @@
             "townHallRequired": 17
         }
     ],
-    "notes": "Damage increases over time during attack. Can be upgraded with Supercharges at TH 17+ once maximum level is reached."
+    "notes": "Damage increases over time during attack. Can be upgraded with Supercharges at TH 17+ once maximum level is reached.",
+    "source": "Clash of Clans Wiki - Inferno Tower",
+    "source_url": "https://clashofclans.fandom.com/wiki/Inferno_Tower",
+    "source_license": "CC BY-SA 3.0"
 }

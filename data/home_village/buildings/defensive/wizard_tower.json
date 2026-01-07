@@ -1,0 +1,323 @@
+{
+    "name": "Wizard Tower",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Multi-target splash tower that damages ground and air units.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 6
+            }
+        ]
+    },
+    "attack": {
+        "range": 7,
+        "attackSpeed": 1.3,
+        "damageType": "Splash - 1 tile",
+        "favoriteTarget": null,
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ],
+        "notes": "Previously had Supercharges but no longer can be Supercharged (can be merged into Super Wizard Tower)."
+    },
+    "levels": [
+        {
+            "level": 1,
+            "damagePerSecond": 11,
+            "damagePerShot": 14.3,
+            "hitpoints": 620,
+            "cost": {
+                "amount": 100000,
+                "currency": "gold"
+            },
+            "buildTime": "1h",
+            "experienceGained": 60,
+            "townHallRequired": 5
+        },
+        {
+            "level": 2,
+            "damagePerSecond": 13,
+            "damagePerShot": 16.9,
+            "hitpoints": 650,
+            "cost": {
+                "amount": 150000,
+                "currency": "gold"
+            },
+            "buildTime": "1h 30m",
+            "experienceGained": 73,
+            "townHallRequired": 5
+        },
+        {
+            "level": 3,
+            "damagePerSecond": 16,
+            "damagePerShot": 20.8,
+            "hitpoints": 680,
+            "cost": {
+                "amount": 250000,
+                "currency": "gold"
+            },
+            "buildTime": "4h",
+            "experienceGained": 120,
+            "townHallRequired": 6
+        },
+        {
+            "level": 4,
+            "damagePerSecond": 20,
+            "damagePerShot": 26,
+            "hitpoints": 730,
+            "cost": {
+                "amount": 400000,
+                "currency": "gold"
+            },
+            "buildTime": "8h",
+            "experienceGained": 169,
+            "townHallRequired": 7
+        },
+        {
+            "level": 5,
+            "damagePerSecond": 24,
+            "damagePerShot": 31.2,
+            "hitpoints": 840,
+            "cost": {
+                "amount": 550000,
+                "currency": "gold"
+            },
+            "buildTime": "10h",
+            "experienceGained": 189,
+            "townHallRequired": 8
+        },
+        {
+            "level": 6,
+            "damagePerSecond": 32,
+            "damagePerShot": 41.6,
+            "hitpoints": 960,
+            "cost": {
+                "amount": 660000,
+                "currency": "gold"
+            },
+            "buildTime": "12h",
+            "experienceGained": 207,
+            "townHallRequired": 8
+        },
+        {
+            "level": 7,
+            "damagePerSecond": 40,
+            "damagePerShot": 52,
+            "hitpoints": 1200,
+            "cost": {
+                "amount": 1000000,
+                "currency": "gold"
+            },
+            "buildTime": "18h",
+            "experienceGained": 254,
+            "townHallRequired": 9
+        },
+        {
+            "level": 8,
+            "damagePerSecond": 45,
+            "damagePerShot": 58.5,
+            "hitpoints": 1440,
+            "cost": {
+                "amount": 1100000,
+                "currency": "gold"
+            },
+            "buildTime": "20h",
+            "experienceGained": 268,
+            "townHallRequired": 10
+        },
+        {
+            "level": 9,
+            "damagePerSecond": 50,
+            "damagePerShot": 65,
+            "hitpoints": 1600,
+            "cost": {
+                "amount": 1300000,
+                "currency": "gold"
+            },
+            "buildTime": "1d",
+            "experienceGained": 293,
+            "townHallRequired": 10
+        },
+        {
+            "level": 10,
+            "damagePerSecond": 62,
+            "damagePerShot": 80.6,
+            "hitpoints": 1900,
+            "cost": {
+                "amount": 2000000,
+                "currency": "gold"
+            },
+            "buildTime": "1d 6h",
+            "experienceGained": 328,
+            "townHallRequired": 11
+        },
+        {
+            "level": 11,
+            "damagePerSecond": 70,
+            "damagePerShot": 91,
+            "hitpoints": 2120,
+            "cost": {
+                "amount": 2500000,
+                "currency": "gold"
+            },
+            "buildTime": "1d 12h",
+            "experienceGained": 360,
+            "townHallRequired": 12
+        },
+        {
+            "level": 12,
+            "damagePerSecond": 78,
+            "damagePerShot": 101.4,
+            "hitpoints": 2240,
+            "cost": {
+                "amount": 2600000,
+                "currency": "gold"
+            },
+            "buildTime": "1d 18h",
+            "experienceGained": 388,
+            "townHallRequired": 13
+        },
+        {
+            "level": 13,
+            "damagePerSecond": 84,
+            "damagePerShot": 109.2,
+            "hitpoints": 2500,
+            "cost": {
+                "amount": 3000000,
+                "currency": "gold"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "townHallRequired": 13
+        },
+        {
+            "level": 14,
+            "damagePerSecond": 90,
+            "damagePerShot": 117,
+            "hitpoints": 2800,
+            "cost": {
+                "amount": 4500000,
+                "currency": "gold"
+            },
+            "buildTime": "3d",
+            "experienceGained": 509,
+            "townHallRequired": 14
+        },
+        {
+            "level": 15,
+            "damagePerSecond": 95,
+            "damagePerShot": 123.5,
+            "hitpoints": 3000,
+            "cost": {
+                "amount": 5500000,
+                "currency": "gold"
+            },
+            "buildTime": "4d",
+            "experienceGained": 587,
+            "townHallRequired": 15
+        },
+        {
+            "level": 16,
+            "damagePerSecond": 102,
+            "damagePerShot": 132.6,
+            "hitpoints": 3150,
+            "cost": {
+                "amount": 8000000,
+                "currency": "gold"
+            },
+            "buildTime": "4d 12h",
+            "experienceGained": 623,
+            "townHallRequired": 16
+        },
+        {
+            "level": 17,
+            "damagePerSecond": 110,
+            "damagePerShot": 143,
+            "hitpoints": 3300,
+            "cost": {
+                "amount": 14000000,
+                "currency": "gold"
+            },
+            "buildTime": "8d 12h",
+            "experienceGained": 856,
+            "townHallRequired": 17
+        }
+    ],
+    "notes": "The Wizard Tower is mergeable into the Super Wizard Tower; it no longer receives new Supercharges or higher levels. Some availability values depend on building combinations (see game rules).",
+    "source": "Clash of Clans Wiki - Wizard Tower",
+    "source_url": "https://clashofclans.fandom.com/wiki/Wizard_Tower",
+    "source_license": "CC BY-SA 3.0"
+}
