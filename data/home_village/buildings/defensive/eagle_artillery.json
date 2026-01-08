@@ -1,0 +1,204 @@
+{
+    "name": "Eagle Artillery",
+    "type": "defensive",
+    "size": {
+        "width": 4,
+        "height": 4
+    },
+    "description": "Long-range artillery that periodically fires devastating shots with a shockwave",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 0
+            }
+        ]
+    },
+    "attack": {
+        "range": 50,
+        "activationRange": 7,
+        "activationHousingSpace": 200,
+        "attackSpeed": 0.75,
+        "timeBetweenBursts": "10s",
+        "shotsPerBurst": 3,
+        "damageType": "Splash",
+        "favoriteTarget": "Any",
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ],
+        "notes": "Main shot splash 0.75 tiles; shockwave 0.75 to 3 tiles"
+    },
+    "levels": [
+        {
+            "level": 1,
+            "damagePerHit": 225,
+            "damagePerSecond": 67.5,
+            "shockwaveDamage": 20,
+            "hitpoints": 4000,
+            "cost": {
+                "amount": 5000000,
+                "currency": "gold"
+            },
+            "buildTime": "4d",
+            "experienceGained": 587,
+            "townHallRequired": 11
+        },
+        {
+            "level": 2,
+            "damagePerHit": 250,
+            "damagePerSecond": 75,
+            "shockwaveDamage": 25,
+            "hitpoints": 4400,
+            "cost": {
+                "amount": 6000000,
+                "currency": "gold"
+            },
+            "buildTime": "5d",
+            "experienceGained": 657,
+            "townHallRequired": 11
+        },
+        {
+            "level": 3,
+            "damagePerHit": 275,
+            "damagePerSecond": 82.5,
+            "shockwaveDamage": 30,
+            "hitpoints": 4800,
+            "cost": {
+                "amount": 9000000,
+                "currency": "gold"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 12
+        },
+        {
+            "level": 4,
+            "damagePerHit": 350,
+            "damagePerSecond": 105,
+            "shockwaveDamage": 35,
+            "hitpoints": 5200,
+            "cost": {
+                "amount": 10000000,
+                "currency": "gold"
+            },
+            "buildTime": "7d 12h",
+            "experienceGained": 804,
+            "townHallRequired": 13
+        },
+        {
+            "level": 5,
+            "damagePerHit": 425,
+            "damagePerSecond": 127.5,
+            "shockwaveDamage": 40,
+            "hitpoints": 5600,
+            "cost": {
+                "amount": 12000000,
+                "currency": "gold"
+            },
+            "buildTime": "8d",
+            "experienceGained": 831,
+            "townHallRequired": 14
+        },
+        {
+            "level": 6,
+            "damagePerHit": 475,
+            "damagePerSecond": 142.5,
+            "shockwaveDamage": 45,
+            "hitpoints": 5900,
+            "cost": {
+                "amount": 13000000,
+                "currency": "gold"
+            },
+            "buildTime": "9d",
+            "experienceGained": 881,
+            "townHallRequired": 15
+        },
+        {
+            "level": 7,
+            "damagePerHit": 525,
+            "damagePerSecond": 157.5,
+            "shockwaveDamage": 50,
+            "hitpoints": 6200,
+            "cost": {
+                "amount": 14000000,
+                "currency": "gold"
+            },
+            "buildTime": "9d 12h",
+            "experienceGained": 905,
+            "townHallRequired": 16
+        }
+    ],
+    "notes": "This building cannot be Supercharged. Since it can be merged into the Inferno Artillery, the Eagle Artillery no longer gains any new levels.",
+    "source": "Clash of Clans Wiki - Eagle Artillery",
+    "source_url": "https://clashofclans.fandom.com/wiki/Eagle_Artillery",
+    "source_license": "CC BY-SA 3.0"
+}

@@ -1,0 +1,293 @@
+{
+    "name": "X-Bow",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Versatile fast-firing defense that can be set to target ground units (Ground Mode)",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 4
+            }
+        ]
+    },
+    "attack": {
+        "range": 14,
+        "attackSpeed": 0.128,
+        "damageType": "Single Target",
+        "favoriteTarget": "Ground",
+        "targetTypes": [
+            "Ground"
+        ]
+    },
+    "modes": [
+        {
+            "name": "Ground Mode",
+            "description": "Ground Mode statistics",
+            "range": 14,
+            "attackSpeed": 0.128,
+            "damageType": "Single Target",
+            "numberOfRounds": 1500
+        }
+    ],
+    "levels": [
+        {
+            "level": 1,
+            "damagePerSecond": 60,
+            "damagePerShot": 7.68,
+            "hitpoints": 1500,
+            "cost": {
+                "amount": 1000000,
+                "currency": "gold"
+            },
+            "buildTime": "12h",
+            "experienceGained": 207,
+            "townHallRequired": 9
+        },
+        {
+            "level": 2,
+            "damagePerSecond": 70,
+            "damagePerShot": 8.96,
+            "hitpoints": 1900,
+            "cost": {
+                "amount": 1200000,
+                "currency": "gold"
+            },
+            "buildTime": "1d",
+            "experienceGained": 293,
+            "townHallRequired": 9
+        },
+        {
+            "level": 3,
+            "damagePerSecond": 80,
+            "damagePerShot": 10.24,
+            "hitpoints": 2300,
+            "cost": {
+                "amount": 2400000,
+                "currency": "gold"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "townHallRequired": 9
+        },
+        {
+            "level": 4,
+            "damagePerSecond": 85,
+            "damagePerShot": 10.88,
+            "hitpoints": 2700,
+            "cost": {
+                "amount": 2500000,
+                "currency": "gold"
+            },
+            "buildTime": "3d",
+            "experienceGained": 509,
+            "townHallRequired": 10
+        },
+        {
+            "level": 5,
+            "damagePerSecond": 95,
+            "damagePerShot": 12.16,
+            "hitpoints": 3100,
+            "cost": {
+                "amount": 3900000,
+                "currency": "gold"
+            },
+            "buildTime": "3d 12h",
+            "experienceGained": 549,
+            "townHallRequired": 11
+        },
+        {
+            "level": 6,
+            "damagePerSecond": 110,
+            "damagePerShot": 14.08,
+            "hitpoints": 3400,
+            "cost": {
+                "amount": 5000000,
+                "currency": "gold"
+            },
+            "buildTime": "4d",
+            "experienceGained": 587,
+            "townHallRequired": 12
+        },
+        {
+            "level": 7,
+            "damagePerSecond": 130,
+            "damagePerShot": 16.64,
+            "hitpoints": 3700,
+            "cost": {
+                "amount": 6000000,
+                "currency": "gold"
+            },
+            "buildTime": "4d 6h",
+            "experienceGained": 605,
+            "townHallRequired": 13
+        },
+        {
+            "level": 8,
+            "damagePerSecond": 155,
+            "damagePerShot": 19.84,
+            "hitpoints": 4000,
+            "cost": {
+                "amount": 7000000,
+                "currency": "gold"
+            },
+            "buildTime": "4d 12h",
+            "experienceGained": 623,
+            "townHallRequired": 13
+        },
+        {
+            "level": 9,
+            "damagePerSecond": 185,
+            "damagePerShot": 23.68,
+            "hitpoints": 4200,
+            "cost": {
+                "amount": 9000000,
+                "currency": "gold"
+            },
+            "buildTime": "5d",
+            "experienceGained": 657,
+            "townHallRequired": 14
+        },
+        {
+            "level": 10,
+            "damagePerSecond": 205,
+            "damagePerShot": 26.24,
+            "hitpoints": 4400,
+            "cost": {
+                "amount": 9500000,
+                "currency": "gold"
+            },
+            "buildTime": "5d 12h",
+            "experienceGained": 689,
+            "townHallRequired": 15
+        },
+        {
+            "level": 11,
+            "damagePerSecond": 225,
+            "damagePerShot": 28.8,
+            "hitpoints": 4600,
+            "cost": {
+                "amount": 10000000,
+                "currency": "gold"
+            },
+            "buildTime": "6d",
+            "experienceGained": 720,
+            "townHallRequired": 16
+        },
+        {
+            "level": 12,
+            "damagePerSecond": 235,
+            "damagePerShot": 30.08,
+            "hitpoints": 4800,
+            "cost": {
+                "amount": 16000000,
+                "currency": "gold"
+            },
+            "buildTime": "10d 12h",
+            "experienceGained": 952,
+            "townHallRequired": 17
+        }
+    ],
+    "supercharges": [
+        {
+            "chargeLevel": 1,
+            "damagePerSecond": 245,
+            "damagePerShot": 31.36,
+            "hitpoints": 4800,
+            "cost": {
+                "amount": 10000000,
+                "currency": "gold"
+            },
+            "buildTime": "4d 12h",
+            "experienceGained": 623,
+            "townHallRequired": 17
+        },
+        {
+            "chargeLevel": 2,
+            "damagePerSecond": 245,
+            "damagePerShot": 31.36,
+            "hitpoints": 4900,
+            "cost": {
+                "amount": 6250000,
+                "currency": "gold"
+            },
+            "buildTime": "6d 12h",
+            "experienceGained": 749,
+            "townHallRequired": 17
+        }
+    ],
+    "source": "Clash of Clans Wiki - X-Bow",
+    "source_url": "https://clashofclans.fandom.com/wiki/X-Bow",
+    "source_license": "CC BY-SA 3.0"
+}
