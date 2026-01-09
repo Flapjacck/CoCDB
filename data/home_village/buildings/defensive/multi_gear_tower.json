@@ -1,0 +1,169 @@
+{
+    "name": "Multi-Gear Tower",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Long-range single-target tower with Gear Up / merged form (Long Range Mode).",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 1
+            }
+        ]
+    },
+    "attack": {
+        "range": 12,
+        "attackSpeed": 1.0,
+        "damageType": "Single Target",
+        "favoriteTarget": null,
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ],
+        "notes": "Has a Long Range Mode."
+    },
+    "levels": [
+        {
+            "level": 1,
+            "damagePerSecond": 300,
+            "damagePerShot": 300,
+            "hitpoints": 4000,
+            "cost": {
+                "amount": 17000000,
+                "currency": "gold"
+            },
+            "buildTime": "10d",
+            "experienceGained": 929,
+            "townHallRequired": 17
+        },
+        {
+            "level": 2,
+            "damagePerSecond": 320,
+            "damagePerShot": 320,
+            "hitpoints": 4200,
+            "cost": {
+                "amount": 18000000,
+                "currency": "gold"
+            },
+            "buildTime": "10d 18h",
+            "experienceGained": 963,
+            "townHallRequired": 17
+        },
+        {
+            "level": 3,
+            "damagePerSecond": 340,
+            "damagePerShot": 340,
+            "hitpoints": 4350,
+            "cost": {
+                "amount": 28000000,
+                "currency": "gold"
+            },
+            "buildTime": "14d",
+            "experienceGained": 1099,
+            "townHallRequired": 18
+        }
+    ],
+    "supercharges": [
+        {
+            "chargeLevel": 1,
+            "damagePerSecond": 350,
+            "damagePerShot": 350,
+            "hitpoints": 4350,
+            "cost": {
+                "amount": 12000000,
+                "currency": "gold"
+            },
+            "buildTime": "6d",
+            "experienceGained": 720,
+            "townHallRequired": 18
+        },
+        {
+            "chargeLevel": 2,
+            "damagePerSecond": 350,
+            "damagePerShot": 350,
+            "hitpoints": 4500,
+            "cost": {
+                "amount": 10000000,
+                "currency": "gold"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 18
+        }
+    ],
+    "notes": "Introduced at Town Hall 17 (merged/gear-up behavior).",
+    "source": "Clash of Clans Wiki - Multi-Gear Tower",
+    "source_url": "https://clashofclans.fandom.com/",
+    "source_license": "CC BY-SA 3.0"
+}

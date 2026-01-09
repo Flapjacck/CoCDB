@@ -1,0 +1,132 @@
+{
+    "name": "Revenge Tower",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Stage 3 tower that fires ricochet shots (multiple damage tiers).",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 1
+            }
+        ]
+    },
+    "attack": {
+        "range": 11,
+        "attackSpeed": 0.3,
+        "damageType": "Ricochet Shot",
+        "favoriteTarget": null,
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ],
+        "notes": "Special Ability: Tower Tantrum (periodic high-damage bursts)."
+    },
+    "levels": [
+        {
+            "level": 1,
+            "maximumDamagePerSecond": 750,
+            "damagePerShotPrimary": 225,
+            "damagePerShotSecondary": 135,
+            "damagePerShotTertiary": 81,
+            "hitpoints": 5800,
+            "cost": {
+                "amount": 430000,
+                "currency": "dark elixir"
+            },
+            "buildTime": "13d",
+            "experienceGained": 1059,
+            "townHallRequired": 18
+        },
+        {
+            "level": 2,
+            "maximumDamagePerSecond": 833,
+            "damagePerShotPrimary": 250,
+            "damagePerShotSecondary": 150,
+            "damagePerShotTertiary": 90,
+            "hitpoints": 6200,
+            "cost": {
+                "amount": 460000,
+                "currency": "dark elixir"
+            },
+            "buildTime": "14d",
+            "experienceGained": 1099,
+            "townHallRequired": 18
+        }
+    ],
+    "notes": "High-rate ricochet tower introduced at Town Hall 18.",
+    "source": "Clash of Clans Wiki - Revenge Tower",
+    "source_url": "https://clashofclans.fandom.com/",
+    "source_license": "CC BY-SA 3.0"
+}

@@ -1,0 +1,159 @@
+{
+    "name": "Super Wizard Tower",
+    "type": "defensive",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Upgraded Wizard Tower (chain lightning) that can target many units with single-target chain effect.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 2
+            }
+        ]
+    },
+    "attack": {
+        "range": 8,
+        "attackSpeed": 1.3,
+        "damageType": "Single Target (Chain Lightning; up to 15 other targets)",
+        "favoriteTarget": null,
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ]
+    },
+    "levels": [
+        {
+            "level": 1,
+            "damagePerSecond": 290,
+            "damagePerHitPrimary": 377,
+            "damagePerHitSecondary": 150.8,
+            "hitpoints": 6000,
+            "cost": {
+                "amount": 29000000,
+                "currency": "gold"
+            },
+            "buildTime": "13d",
+            "experienceGained": 1059,
+            "townHallRequired": 18
+        },
+        {
+            "level": 2,
+            "damagePerSecond": 320,
+            "damagePerHitPrimary": 416,
+            "damagePerHitSecondary": 166.4,
+            "hitpoints": 6300,
+            "cost": {
+                "amount": 30000000,
+                "currency": "gold"
+            },
+            "buildTime": "14d",
+            "experienceGained": 1099,
+            "townHallRequired": 18
+        }
+    ],
+    "supercharges": [
+        {
+            "chargeLevel": 1,
+            "damagePerSecond": 327,
+            "damagePerHitPrimary": 425.1,
+            "damagePerHitSecondary": 170.04,
+            "hitpoints": 6300,
+            "cost": {
+                "amount": 12000000,
+                "currency": "gold"
+            },
+            "buildTime": "6d",
+            "experienceGained": 720,
+            "townHallRequired": 18
+        },
+        {
+            "chargeLevel": 2,
+            "damagePerSecond": 327,
+            "damagePerHitPrimary": 425.1,
+            "damagePerHitSecondary": 170.04,
+            "hitpoints": 6450,
+            "cost": {
+                "amount": 14000000,
+                "currency": "gold"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 18
+        }
+    ],
+    "notes": "Chain lightning can hit up to 15 additional targets; Super Wizard Towers introduced at TH18.",
+    "source": "Clash of Clans Wiki - Super Wizard Tower",
+    "source_url": "https://clashofclans.fandom.com/",
+    "source_license": "CC BY-SA 3.0"
+}
