@@ -1,0 +1,48 @@
+{
+    "name": "Trap Name",
+    "type": "trap",
+    "size": {
+        "width": 1,
+        "height": 1
+    },
+    "description": "Brief description of the trap and its purpose",
+    // Trap availability across Town Hall levels
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            }
+        ]
+    },
+    // Trigger and damage characteristics of the trap
+    "triggerRadius": 1.5,
+    "damageRadius": 3,
+    "attack": {
+        "damageType": "Area Splash",
+        "splashRadius": 3,
+        "favoriteTarget": "None",
+        "targetTypes": [
+            "Ground"
+        ],
+        "specialAbility": "Optional special ability description",
+        "notes": "Additional attack behavior notes if applicable"
+    },
+    // Main trap stats across all levels
+    "levels": [
+        {
+            "level": 1,
+            "damage": 20,
+            "cost": {
+                "amount": 400,
+                "currency": "gold"
+            },
+            "buildTime": "N/A",
+            "experienceGained": "N/A",
+            "townHallRequired": 3,
+            "notes": "Optional notes for specific level"
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}
