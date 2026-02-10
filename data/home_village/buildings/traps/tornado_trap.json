@@ -1,0 +1,138 @@
+{
+    "name": "Tornado Trap",
+    "type": "trap",
+    "size": {
+        "width": 1,
+        "height": 1
+    },
+    "description": "Creates a tornado that pulls units in and deals area splash damage over a short duration.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 1
+            }
+        ]
+    },
+    "triggerRadius": 3,
+    "damageRadius": 3,
+    "attack": {
+        "damageType": "Area Splash",
+        "favoriteTarget": "None",
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ],
+        "damagePerSecond": 8,
+        "notes": "Pulls units into the center and deals total damage over the duration. Unarmed variant exists."
+    },
+    "levels": [
+        {
+            "level": 1,
+            "duration": "5s",
+            "totalDamage": 39,
+            "cost": {
+                "amount": 1800000,
+                "currency": "gold"
+            },
+            "buildTime": "N/A",
+            "experienceGained": "N/A",
+            "townHallRequired": 11
+        },
+        {
+            "level": 2,
+            "duration": "6s",
+            "totalDamage": 47,
+            "cost": {
+                "amount": 2000000,
+                "currency": "gold"
+            },
+            "buildTime": "1d",
+            "experienceGained": 293,
+            "townHallRequired": 11
+        },
+        {
+            "level": 3,
+            "duration": "7s",
+            "totalDamage": 55,
+            "cost": {
+                "amount": 2500000,
+                "currency": "gold"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "townHallRequired": 12
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/",
+    "notes": "Unarmed Tornado Trap variants exist in some contexts."
+}

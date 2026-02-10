@@ -1,0 +1,135 @@
+{
+    "name": "Giga Bomb",
+    "type": "trap",
+    "size": {
+        "width": 2,
+        "height": 2
+    },
+    "description": "Massive explosive that deals very high area splash damage when triggered by high-capacity troops.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 1
+            }
+        ]
+    },
+    "triggerHousingSpace": 18,
+    "triggerRadius": 3.5,
+    "damageRadius": 4.5,
+    "attack": {
+        "damageType": "Area Splash",
+        "favoriteTarget": "None",
+        "targetTypes": [
+            "Ground",
+            "Air"
+        ],
+        "notes": "Triggers on a unit that meets the trigger housing space requirement. Unarmed variants exist."
+    },
+    "levels": [
+        {
+            "level": 1,
+            "damage": 1100,
+            "cost": {
+                "amount": 4500000,
+                "currency": "gold"
+            },
+            "buildTime": "N/A",
+            "experienceGained": "N/A",
+            "townHallRequired": 17
+        },
+        {
+            "level": 2,
+            "damage": 1200,
+            "cost": {
+                "amount": 8500000,
+                "currency": "gold"
+            },
+            "buildTime": "5d",
+            "experienceGained": 657,
+            "townHallRequired": 17
+        },
+        {
+            "level": 3,
+            "damage": 1300,
+            "cost": {
+                "amount": 12500000,
+                "currency": "gold"
+            },
+            "buildTime": "6d",
+            "experienceGained": 720,
+            "townHallRequired": 17
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/",
+    "notes": "Unarmed Giga Bomb variants exist: Giga Bomb1 unarmed (Level 1), Giga Bomb2 unarmed (Level 2), Giga Bomb3 unarmed (Level 3)."
+}
