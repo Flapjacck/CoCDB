@@ -1,0 +1,177 @@
+{
+    "name": "Skeleton Trap",
+    "type": "trap",
+    "size": {
+        "width": 1,
+        "height": 1
+    },
+    "description": "Trap that spawns skeleton units to attack nearby ground units when triggered.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 4
+            }
+        ]
+    },
+    "triggerRadius": 5,
+    "attack": {
+        "damageType": "Summon (units spawned)",
+        "favoriteTarget": "None",
+        "targetTypes": [
+            "Ground"
+        ],
+        "notes": "Spawns skeletons in ground mode; skeletons attack nearby ground units (melee)."
+    },
+    "levels": [
+        {
+            "level": 1,
+            "spawnedUnits": 2,
+            "skeletonLevel": 1,
+            "cost": {
+                "amount": 6000,
+                "currency": "gold"
+            },
+            "buildTime": "N/A",
+            "experienceGained": "N/A",
+            "townHallRequired": 8
+        },
+        {
+            "level": 2,
+            "spawnedUnits": 3,
+            "skeletonLevel": 1,
+            "cost": {
+                "amount": 250000,
+                "currency": "gold"
+            },
+            "buildTime": "5h",
+            "experienceGained": 134,
+            "townHallRequired": 8
+        },
+        {
+            "level": 3,
+            "spawnedUnits": 4,
+            "skeletonLevel": 1,
+            "cost": {
+                "amount": 400000,
+                "currency": "gold"
+            },
+            "buildTime": "8h",
+            "experienceGained": 169,
+            "townHallRequired": 9
+        },
+        {
+            "level": 4,
+            "spawnedUnits": 5,
+            "skeletonLevel": 1,
+            "cost": {
+                "amount": 1000000,
+                "currency": "gold"
+            },
+            "buildTime": "12h",
+            "experienceGained": 207,
+            "townHallRequired": 10
+        },
+        {
+            "level": 5,
+            "spawnedUnits": 5,
+            "skeletonLevel": 2,
+            "cost": {
+                "amount": 18000000,
+                "currency": "gold"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 18
+        }
+    ],
+    "skeletonStats": [
+        {
+            "skeletonLevel": 1,
+            "attackType": "Melee (Ground Only)",
+            "attackSpeed": 0.7,
+            "damagePerSecond": 25,
+            "damagePerHit": 17.5,
+            "hitpoints": 30
+        },
+        {
+            "skeletonLevel": 2,
+            "attackType": "Melee (Ground Only)",
+            "attackSpeed": 0.7,
+            "damagePerSecond": 30,
+            "damagePerHit": 21,
+            "hitpoints": 45
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/",
+    "notes": "Unarmed Skeleton Trap variants exist: SkeletonTrap1 unarmed (Levels 1-2), SkeletonTrap3 unarmed (Levels 3-4), SkeletonTrap5 unarmed (Level 5)."
+}
