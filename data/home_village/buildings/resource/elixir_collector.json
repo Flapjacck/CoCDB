@@ -1,0 +1,475 @@
+{
+    "name": "Elixir Collector",
+    "type": "resource",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Produces elixir over time. Collect it to add it to your treasury",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 5
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 6
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 6
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 6
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 7
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 7
+            }
+        ]
+    },
+    "production": {
+        "resourceType": "Elixir",
+        "notes": "Elixir production continues until capacity is reached"
+    },
+    "levels": [
+        {
+            "level": 1,
+            "capacity": 1000,
+            "productionRate": "200/hr",
+            "hitpoints": 75,
+            "boostCost": {
+                "amount": 0,
+                "currency": "gems"
+            },
+            "timeToFill": "5h",
+            "cost": {
+                "amount": 150,
+                "currency": "gold"
+            },
+            "buildTime": "5s",
+            "experienceGained": 2,
+            "catchUpPoint": "N/A",
+            "townHallRequired": 1
+        },
+        {
+            "level": 2,
+            "capacity": 2000,
+            "productionRate": "400/hr",
+            "hitpoints": 150,
+            "boostCost": {
+                "amount": 0,
+                "currency": "gems"
+            },
+            "timeToFill": "5h",
+            "cost": {
+                "amount": 300,
+                "currency": "gold"
+            },
+            "buildTime": "15s",
+            "experienceGained": 3,
+            "catchUpPoint": "15s",
+            "townHallRequired": 1
+        },
+        {
+            "level": 3,
+            "capacity": 3000,
+            "productionRate": "600/hr",
+            "hitpoints": 300,
+            "boostCost": {
+                "amount": 0,
+                "currency": "gems"
+            },
+            "timeToFill": "5h",
+            "cost": {
+                "amount": 700,
+                "currency": "gold"
+            },
+            "buildTime": "1m",
+            "experienceGained": 7,
+            "catchUpPoint": "2m",
+            "townHallRequired": 2
+        },
+        {
+            "level": 4,
+            "capacity": 5000,
+            "productionRate": "800/hr",
+            "hitpoints": 400,
+            "boostCost": {
+                "amount": 0,
+                "currency": "gems"
+            },
+            "timeToFill": "6h 15m",
+            "cost": {
+                "amount": 1400,
+                "currency": "gold"
+            },
+            "buildTime": "2m",
+            "experienceGained": 10,
+            "catchUpPoint": "6m",
+            "townHallRequired": 2
+        },
+        {
+            "level": 5,
+            "capacity": 10000,
+            "productionRate": "1000/hr",
+            "hitpoints": 500,
+            "boostCost": {
+                "amount": 4,
+                "currency": "gems"
+            },
+            "timeToFill": "10h",
+            "cost": {
+                "amount": 3000,
+                "currency": "gold"
+            },
+            "buildTime": "5m",
+            "experienceGained": 17,
+            "catchUpPoint": "20m",
+            "townHallRequired": 3
+        },
+        {
+            "level": 6,
+            "capacity": 20000,
+            "productionRate": "1300/hr",
+            "hitpoints": 550,
+            "boostCost": {
+                "amount": 5,
+                "currency": "gems"
+            },
+            "timeToFill": "15h 23m 5s",
+            "cost": {
+                "amount": 7000,
+                "currency": "gold"
+            },
+            "buildTime": "15m",
+            "experienceGained": 30,
+            "catchUpPoint": "50m",
+            "townHallRequired": 3
+        },
+        {
+            "level": 7,
+            "capacity": 30000,
+            "productionRate": "1600/hr",
+            "hitpoints": 600,
+            "boostCost": {
+                "amount": 6,
+                "currency": "gems"
+            },
+            "timeToFill": "18h 45m",
+            "cost": {
+                "amount": 14000,
+                "currency": "gold"
+            },
+            "buildTime": "30m",
+            "experienceGained": 42,
+            "catchUpPoint": "2h 10m",
+            "townHallRequired": 4
+        },
+        {
+            "level": 8,
+            "capacity": 50000,
+            "productionRate": "1900/hr",
+            "hitpoints": 660,
+            "boostCost": {
+                "amount": 7,
+                "currency": "gems"
+            },
+            "timeToFill": "1d 2h 18m 57s",
+            "cost": {
+                "amount": 28000,
+                "currency": "gold"
+            },
+            "buildTime": "1h",
+            "experienceGained": 60,
+            "catchUpPoint": "5h 20m",
+            "townHallRequired": 4
+        },
+        {
+            "level": 9,
+            "capacity": 75000,
+            "productionRate": "2200/hr",
+            "hitpoints": 720,
+            "boostCost": {
+                "amount": 8,
+                "currency": "gems"
+            },
+            "timeToFill": "1d 10h 5m 27s",
+            "cost": {
+                "amount": 56000,
+                "currency": "gold"
+            },
+            "buildTime": "2h",
+            "experienceGained": 84,
+            "catchUpPoint": "12h 40m",
+            "townHallRequired": 5
+        },
+        {
+            "level": 10,
+            "capacity": 100000,
+            "productionRate": "2800/hr",
+            "hitpoints": 780,
+            "boostCost": {
+                "amount": 9,
+                "currency": "gems"
+            },
+            "timeToFill": "1d 11h 42m 52s",
+            "cost": {
+                "amount": 75000,
+                "currency": "gold"
+            },
+            "buildTime": "3h",
+            "experienceGained": 103,
+            "catchUpPoint": "11h",
+            "townHallRequired": 5
+        },
+        {
+            "level": 11,
+            "capacity": 150000,
+            "productionRate": "3500/hr",
+            "hitpoints": 860,
+            "boostCost": {
+                "amount": 10,
+                "currency": "gems"
+            },
+            "timeToFill": "1d 18h 51m 26s",
+            "cost": {
+                "amount": 85000,
+                "currency": "gold"
+            },
+            "buildTime": "4h",
+            "experienceGained": 120,
+            "catchUpPoint": "16h",
+            "townHallRequired": 7
+        },
+        {
+            "level": 12,
+            "capacity": 200000,
+            "productionRate": "4200/hr",
+            "hitpoints": 960,
+            "boostCost": {
+                "amount": 10,
+                "currency": "gems"
+            },
+            "timeToFill": "1d 23h 37m 9s",
+            "cost": {
+                "amount": 170000,
+                "currency": "gold"
+            },
+            "buildTime": "6h",
+            "experienceGained": 146,
+            "catchUpPoint": "1d 6h",
+            "townHallRequired": 8
+        },
+        {
+            "level": 13,
+            "capacity": 250000,
+            "productionRate": "4900/hr",
+            "hitpoints": 1080,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 3h 1m 14s",
+            "cost": {
+                "amount": 400000,
+                "currency": "gold"
+            },
+            "buildTime": "8h",
+            "experienceGained": 169,
+            "catchUpPoint": "2d",
+            "townHallRequired": 10
+        },
+        {
+            "level": 14,
+            "capacity": 300000,
+            "productionRate": "5600/hr",
+            "hitpoints": 1180,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 5h 34m 18s",
+            "cost": {
+                "amount": 800000,
+                "currency": "gold"
+            },
+            "buildTime": "10h",
+            "experienceGained": 189,
+            "catchUpPoint": "2d 22h",
+            "townHallRequired": 11
+        },
+        {
+            "level": 15,
+            "capacity": 350000,
+            "productionRate": "6300/hr",
+            "hitpoints": 1280,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 7h 33m 20s",
+            "cost": {
+                "amount": 1200000,
+                "currency": "gold"
+            },
+            "buildTime": "18h",
+            "experienceGained": 254,
+            "catchUpPoint": "6d",
+            "townHallRequired": 12
+        },
+        {
+            "level": 16,
+            "capacity": 385000,
+            "productionRate": "7000/hr",
+            "hitpoints": 1350,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 7h",
+            "cost": {
+                "amount": 2000000,
+                "currency": "gold"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "catchUpPoint": "18d",
+            "townHallRequired": 14
+        },
+        {
+            "level": 17,
+            "capacity": 420000,
+            "productionRate": "7560/hr",
+            "hitpoints": 1400,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 7h 33m 20s",
+            "cost": {
+                "amount": 8000000,
+                "currency": "gold"
+            },
+            "buildTime": "4d",
+            "experienceGained": 587,
+            "catchUpPoint": "50d",
+            "townHallRequired": 16
+        }
+    ],
+    "supercharges": [
+        {
+            "chargeLevel": 1,
+            "capacity": 436500,
+            "productionRate": "7857/hr",
+            "hitpoints": 1400,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 7h 33m 20s",
+            "cost": {
+                "amount": 1700000,
+                "currency": "gold"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "catchUpPoint": "50d 21h 49m 6s",
+            "townHallRequired": 18
+        },
+        {
+            "chargeLevel": 2,
+            "capacity": 453000,
+            "productionRate": "8154/hr",
+            "hitpoints": 1400,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 7h 33m 20s",
+            "cost": {
+                "amount": 1500000,
+                "currency": "gold"
+            },
+            "buildTime": "3d",
+            "experienceGained": 509,
+            "catchUpPoint": "79d 8h 43m 39s",
+            "townHallRequired": 18
+        },
+        {
+            "chargeLevel": 3,
+            "capacity": 453000,
+            "productionRate": "8154/hr",
+            "hitpoints": 1450,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 7h 33m 20s",
+            "cost": {
+                "amount": 1300000,
+                "currency": "gold"
+            },
+            "buildTime": "4d",
+            "experienceGained": 587,
+            "catchUpPoint": "N/A",
+            "townHallRequired": 18
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}

@@ -1,0 +1,71 @@
+{
+    "name": "Resource Building Name",
+    "type": "resource",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Brief description of the resource building and its production purpose",
+    // Resource building availability across Town Hall levels
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            }
+        ]
+    },
+    // Production characteristics of the building
+    "production": {
+        "resourceType": "Gold",
+        "notes": "Resource production continues until capacity is reached"
+    },
+    // Main resource building stats across all levels
+    "levels": [
+        {
+            "level": 1,
+            "capacity": 1000,
+            "productionRate": "200/hr",
+            "hitpoints": 75,
+            "boostCost": {
+                "amount": 0,
+                "currency": "gems"
+            },
+            "timeToFill": "5h",
+            "cost": {
+                "amount": 150,
+                "currency": "elixir"
+            },
+            "buildTime": "5s",
+            "experienceGained": 2,
+            "catchUpPoint": "N/A",
+            "townHallRequired": 1,
+            "notes": "Optional notes for specific level"
+        }
+    ],
+    // Optional: Supercharges available at max level on specific TH
+    "supercharges": [
+        {
+            "chargeLevel": 1,
+            "capacity": 436500,
+            "productionRate": "7857/hr",
+            "hitpoints": 1400,
+            "boostCost": {
+                "amount": 11,
+                "currency": "gems"
+            },
+            "timeToFill": "2d 7h 33m 20s",
+            "cost": {
+                "amount": 1700000,
+                "currency": "elixir"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "catchUpPoint": "50d 21h 49m 6s",
+            "townHallRequired": 18,
+            "notes": "Available once max level is reached at TH 18"
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}
