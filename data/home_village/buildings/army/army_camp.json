@@ -1,0 +1,245 @@
+{
+    "name": "Army Camp",
+    "type": "army",
+    "size": {
+        "width": 4,
+        "height": 4
+    },
+    "description": "Training building that stores troops. Increases your army capacity for battle.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 4
+            }
+        ]
+    },
+    "levels": [
+        {
+            "level": 1,
+            "troopCapacity": 20,
+            "hitpoints": 100,
+            "cost": {
+                "amount": 200,
+                "currency": "elixir"
+            },
+            "buildTime": "1m",
+            "experienceGained": 7,
+            "townHallRequired": 1
+        },
+        {
+            "level": 2,
+            "troopCapacity": 30,
+            "hitpoints": 150,
+            "cost": {
+                "amount": 2000,
+                "currency": "elixir"
+            },
+            "buildTime": "5m",
+            "experienceGained": 17,
+            "townHallRequired": 2
+        },
+        {
+            "level": 3,
+            "troopCapacity": 35,
+            "hitpoints": 200,
+            "cost": {
+                "amount": 10000,
+                "currency": "elixir"
+            },
+            "buildTime": "30m",
+            "experienceGained": 42,
+            "townHallRequired": 3
+        },
+        {
+            "level": 4,
+            "troopCapacity": 40,
+            "hitpoints": 250,
+            "cost": {
+                "amount": 100000,
+                "currency": "elixir"
+            },
+            "buildTime": "2h",
+            "experienceGained": 84,
+            "townHallRequired": 4
+        },
+        {
+            "level": 5,
+            "troopCapacity": 45,
+            "hitpoints": 300,
+            "cost": {
+                "amount": 250000,
+                "currency": "elixir"
+            },
+            "buildTime": "6h",
+            "experienceGained": 146,
+            "townHallRequired": 5
+        },
+        {
+            "level": 6,
+            "troopCapacity": 50,
+            "hitpoints": 330,
+            "cost": {
+                "amount": 500000,
+                "currency": "elixir"
+            },
+            "buildTime": "12h",
+            "experienceGained": 207,
+            "townHallRequired": 6
+        },
+        {
+            "level": 7,
+            "troopCapacity": 55,
+            "hitpoints": 400,
+            "cost": {
+                "amount": 1500000,
+                "currency": "elixir"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "townHallRequired": 9
+        },
+        {
+            "level": 8,
+            "troopCapacity": 60,
+            "hitpoints": 500,
+            "cost": {
+                "amount": 2500000,
+                "currency": "elixir"
+            },
+            "buildTime": "3d",
+            "experienceGained": 509,
+            "townHallRequired": 10
+        },
+        {
+            "level": 9,
+            "troopCapacity": 65,
+            "hitpoints": 600,
+            "cost": {
+                "amount": 4200000,
+                "currency": "elixir"
+            },
+            "buildTime": "3d 12h",
+            "experienceGained": 549,
+            "townHallRequired": 11
+        },
+        {
+            "level": 10,
+            "troopCapacity": 70,
+            "hitpoints": 700,
+            "cost": {
+                "amount": 4500000,
+                "currency": "elixir"
+            },
+            "buildTime": "4d",
+            "experienceGained": 587,
+            "townHallRequired": 12
+        },
+        {
+            "level": 11,
+            "troopCapacity": 75,
+            "hitpoints": 800,
+            "cost": {
+                "amount": 7500000,
+                "currency": "elixir"
+            },
+            "buildTime": "5d",
+            "experienceGained": 657,
+            "townHallRequired": 13
+        },
+        {
+            "level": 12,
+            "troopCapacity": 80,
+            "hitpoints": 850,
+            "cost": {
+                "amount": 10000000,
+                "currency": "elixir"
+            },
+            "buildTime": "6d",
+            "experienceGained": 720,
+            "townHallRequired": 15
+        },
+        {
+            "level": 13,
+            "troopCapacity": 85,
+            "hitpoints": 900,
+            "cost": {
+                "amount": 17000000,
+                "currency": "elixir"
+            },
+            "buildTime": "10d",
+            "experienceGained": 929,
+            "townHallRequired": 17
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}

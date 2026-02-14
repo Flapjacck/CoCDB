@@ -1,0 +1,37 @@
+{
+    "name": "Building Name",
+    "type": "army",
+    "size": {
+        "width": 4,
+        "height": 4
+    },
+    "description": "Brief description of the building and its purpose",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 1
+            }
+        ]
+    },
+    "levels": [
+        {
+            "level": 1,
+            "hitpoints": 100,
+            "cost": {
+                "amount": 200,
+                "currency": "elixir"
+            },
+            "buildTime": "1m",
+            "experienceGained": 7,
+            "townHallRequired": 1,
+            "notes": "Optional level-specific notes"
+        }
+    ],
+    "specialProperties": {
+        "troopCapacity": 20,
+        "unlockedUnit": "Barbarian"
+    },
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}
