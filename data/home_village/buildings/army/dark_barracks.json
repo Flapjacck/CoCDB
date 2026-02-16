@@ -1,0 +1,233 @@
+{
+    "name": "Dark Barracks",
+    "type": "army",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Barracks for training dark elixir troops. Unlocks new powerful units for your army.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 1
+            }
+        ]
+    },
+    "levels": [
+        {
+            "level": 1,
+            "hitpoints": 500,
+            "unlockedUnit": "Minion",
+            "cost": {
+                "amount": 200000,
+                "currency": "elixir"
+            },
+            "buildTime": "8h",
+            "experienceGained": 169,
+            "townHallRequired": 7
+        },
+        {
+            "level": 2,
+            "hitpoints": 550,
+            "unlockedUnit": "Hog Rider",
+            "cost": {
+                "amount": 600000,
+                "currency": "elixir"
+            },
+            "buildTime": "1d",
+            "experienceGained": 293,
+            "townHallRequired": 7
+        },
+        {
+            "level": 3,
+            "hitpoints": 600,
+            "unlockedUnit": "Valkyrie",
+            "cost": {
+                "amount": 1000000,
+                "currency": "elixir"
+            },
+            "buildTime": "1d 12h",
+            "experienceGained": 360,
+            "townHallRequired": 8
+        },
+        {
+            "level": 4,
+            "hitpoints": 650,
+            "unlockedUnit": "Golem",
+            "cost": {
+                "amount": 1600000,
+                "currency": "elixir"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "townHallRequired": 8
+        },
+        {
+            "level": 5,
+            "hitpoints": 700,
+            "unlockedUnit": "Witch",
+            "cost": {
+                "amount": 2200000,
+                "currency": "elixir"
+            },
+            "buildTime": "2d 12h",
+            "experienceGained": 464,
+            "townHallRequired": 9
+        },
+        {
+            "level": 6,
+            "hitpoints": 750,
+            "unlockedUnit": "Lava Hound",
+            "cost": {
+                "amount": 2900000,
+                "currency": "elixir"
+            },
+            "buildTime": "3d",
+            "experienceGained": 509,
+            "townHallRequired": 9
+        },
+        {
+            "level": 7,
+            "hitpoints": 800,
+            "unlockedUnit": "Bowler",
+            "cost": {
+                "amount": 4000000,
+                "currency": "elixir"
+            },
+            "buildTime": "5d",
+            "experienceGained": 657,
+            "townHallRequired": 10
+        },
+        {
+            "level": 8,
+            "hitpoints": 850,
+            "unlockedUnit": "Ice Golem",
+            "cost": {
+                "amount": 7000000,
+                "currency": "elixir"
+            },
+            "buildTime": "6d",
+            "experienceGained": 720,
+            "townHallRequired": 11
+        },
+        {
+            "level": 9,
+            "hitpoints": 900,
+            "unlockedUnit": "Headhunter",
+            "cost": {
+                "amount": 7200000,
+                "currency": "elixir"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 12
+        },
+        {
+            "level": 10,
+            "hitpoints": 950,
+            "unlockedUnit": "Apprentice Warden",
+            "cost": {
+                "amount": 10000000,
+                "currency": "elixir"
+            },
+            "buildTime": "7d 12h",
+            "experienceGained": 804,
+            "townHallRequired": 13
+        },
+        {
+            "level": 11,
+            "hitpoints": 1000,
+            "unlockedUnit": "Druid",
+            "cost": {
+                "amount": 12000000,
+                "currency": "elixir"
+            },
+            "buildTime": "8d",
+            "experienceGained": 831,
+            "townHallRequired": 14
+        },
+        {
+            "level": 12,
+            "hitpoints": 1050,
+            "unlockedUnit": "Furnace",
+            "cost": {
+                "amount": 20000000,
+                "currency": "elixir"
+            },
+            "buildTime": "12d",
+            "experienceGained": 1018,
+            "townHallRequired": 15
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}

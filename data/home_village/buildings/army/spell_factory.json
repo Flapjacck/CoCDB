@@ -1,0 +1,225 @@
+{
+    "name": "Spell Factory",
+    "type": "army",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "description": "Creates spells to aid your army in battle. Increases spell storage and unlocks new spell types.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 1
+            }
+        ]
+    },
+    "levels": [
+        {
+            "level": 1,
+            "hitpoints": 425,
+            "spellStorageCapacity": 2,
+            "unlockedSpells": [
+                "Lightning Spell"
+            ],
+            "cost": {
+                "amount": 150000,
+                "currency": "elixir"
+            },
+            "buildTime": "6h",
+            "experienceGained": 146,
+            "townHallRequired": 5
+        },
+        {
+            "level": 2,
+            "hitpoints": 470,
+            "spellStorageCapacity": 4,
+            "unlockedSpells": [
+                "Healing Spell"
+            ],
+            "cost": {
+                "amount": 300000,
+                "currency": "elixir"
+            },
+            "buildTime": "12h",
+            "experienceGained": 207,
+            "townHallRequired": 6
+        },
+        {
+            "level": 3,
+            "hitpoints": 520,
+            "spellStorageCapacity": 6,
+            "unlockedSpells": [
+                "Rage Spell"
+            ],
+            "cost": {
+                "amount": 600000,
+                "currency": "elixir"
+            },
+            "buildTime": "1d",
+            "experienceGained": 293,
+            "townHallRequired": 7
+        },
+        {
+            "level": 4,
+            "hitpoints": 600,
+            "spellStorageCapacity": 8,
+            "unlockedSpells": [
+                "Jump Spell",
+                "Freeze Spell"
+            ],
+            "cost": {
+                "amount": 1200000,
+                "currency": "elixir"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "townHallRequired": 9
+        },
+        {
+            "level": 5,
+            "hitpoints": 720,
+            "spellStorageCapacity": 10,
+            "unlockedSpells": [
+                "Clone Spell"
+            ],
+            "cost": {
+                "amount": 2000000,
+                "currency": "elixir"
+            },
+            "buildTime": "3d",
+            "experienceGained": 509,
+            "townHallRequired": 10
+        },
+        {
+            "level": 6,
+            "hitpoints": 840,
+            "spellStorageCapacity": 10,
+            "unlockedSpells": [
+                "Invisibility Spell"
+            ],
+            "cost": {
+                "amount": 3500000,
+                "currency": "elixir"
+            },
+            "buildTime": "5d",
+            "experienceGained": 657,
+            "townHallRequired": 11
+        },
+        {
+            "level": 7,
+            "hitpoints": 960,
+            "spellStorageCapacity": 10,
+            "unlockedSpells": [
+                "Recall Spell"
+            ],
+            "cost": {
+                "amount": 9000000,
+                "currency": "elixir"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 13
+        },
+        {
+            "level": 8,
+            "hitpoints": 1080,
+            "spellStorageCapacity": 10,
+            "unlockedSpells": [
+                "Revive Spell"
+            ],
+            "cost": {
+                "amount": 14000000,
+                "currency": "elixir"
+            },
+            "buildTime": "8d",
+            "experienceGained": 831,
+            "townHallRequired": 15
+        },
+        {
+            "level": 9,
+            "hitpoints": 1150,
+            "spellStorageCapacity": 10,
+            "unlockedSpells": [
+                "Totem Spell"
+            ],
+            "cost": {
+                "amount": 24000000,
+                "currency": "elixir"
+            },
+            "buildTime": "13d",
+            "experienceGained": 1059,
+            "townHallRequired": 16
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}
