@@ -1,0 +1,193 @@
+{
+    "name": "Workshop",
+    "type": "army",
+    "size": {
+        "width": 4,
+        "height": 4
+    },
+    "description": "Craft and upgrade powerful siege machines to help break through enemy defenses.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 1
+            }
+        ]
+    },
+    "levels": [
+        {
+            "level": 1,
+            "unlockedSiegeMachine": "Wall Wrecker",
+            "siegeMachineCapacity": 1,
+            "hitpoints": 1000,
+            "cost": {
+                "amount": 2400000,
+                "currency": "elixir"
+            },
+            "buildTime": "2d",
+            "experienceGained": 415,
+            "townHallRequired": 12
+        },
+        {
+            "level": 2,
+            "unlockedSiegeMachine": "Battle Blimp",
+            "siegeMachineCapacity": 2,
+            "hitpoints": 1100,
+            "cost": {
+                "amount": 3700000,
+                "currency": "elixir"
+            },
+            "buildTime": "3d",
+            "experienceGained": 509,
+            "townHallRequired": 12
+        },
+        {
+            "level": 3,
+            "unlockedSiegeMachine": "Stone Slammer",
+            "siegeMachineCapacity": 3,
+            "hitpoints": 1200,
+            "cost": {
+                "amount": 5000000,
+                "currency": "elixir"
+            },
+            "buildTime": "3d12h",
+            "experienceGained": 549,
+            "townHallRequired": 12
+        },
+        {
+            "level": 4,
+            "unlockedSiegeMachine": "Siege Barracks",
+            "siegeMachineCapacity": 3,
+            "hitpoints": 1300,
+            "cost": {
+                "amount": 8700000,
+                "currency": "elixir"
+            },
+            "buildTime": "4d",
+            "experienceGained": 587,
+            "townHallRequired": 13
+        },
+        {
+            "level": 5,
+            "unlockedSiegeMachine": "Log Launcher",
+            "siegeMachineCapacity": 3,
+            "hitpoints": 1400,
+            "cost": {
+                "amount": 9000000,
+                "currency": "elixir"
+            },
+            "buildTime": "5d",
+            "experienceGained": 657,
+            "townHallRequired": 13
+        },
+        {
+            "level": 6,
+            "unlockedSiegeMachine": "Flame Flinger",
+            "siegeMachineCapacity": 3,
+            "hitpoints": 1500,
+            "cost": {
+                "amount": 10000000,
+                "currency": "elixir"
+            },
+            "buildTime": "5d12h",
+            "experienceGained": 689,
+            "townHallRequired": 14
+        },
+        {
+            "level": 7,
+            "unlockedSiegeMachine": "Battle Drill",
+            "siegeMachineCapacity": 3,
+            "hitpoints": 1600,
+            "cost": {
+                "amount": 11000000,
+                "currency": "elixir"
+            },
+            "buildTime": "6d",
+            "experienceGained": 720,
+            "townHallRequired": 15
+        },
+        {
+            "level": 8,
+            "unlockedSiegeMachine": "Troop Launcher",
+            "siegeMachineCapacity": 3,
+            "hitpoints": 1700,
+            "cost": {
+                "amount": 13000000,
+                "currency": "elixir"
+            },
+            "buildTime": "7d",
+            "experienceGained": 777,
+            "townHallRequired": 16
+        }
+    ],
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}
