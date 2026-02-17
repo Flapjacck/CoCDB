@@ -1,0 +1,87 @@
+{
+    "name": "Hero Banner",
+    "type": "army",
+    "size": {
+        "width": 2,
+        "height": 2
+    },
+    "description": "Increases the damage and hitpoints of troops deployed near this banner.",
+    "availability": {
+        "townHallLevels": [
+            {
+                "townHall": 1,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 2,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 3,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 4,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 5,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 6,
+                "numberAvailable": 0
+            },
+            {
+                "townHall": 7,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 8,
+                "numberAvailable": 1
+            },
+            {
+                "townHall": 9,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 10,
+                "numberAvailable": 2
+            },
+            {
+                "townHall": 11,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 12,
+                "numberAvailable": 3
+            },
+            {
+                "townHall": 13,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 14,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 15,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 16,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 17,
+                "numberAvailable": 4
+            },
+            {
+                "townHall": 18,
+                "numberAvailable": 4
+            }
+        ]
+    },
+    "source": "Clash of Clans Wiki",
+    "source_url": "https://clashofclans.fandom.com/"
+}
