@@ -25,7 +25,6 @@ func main() {
 	slog.Info("starting CoCDB API server",
 		"port", cfg.Port,
 		"environment", cfg.Environment,
-		"version", cfg.Version,
 	)
 
 	// Build the HTTP router with all routes and middleware.

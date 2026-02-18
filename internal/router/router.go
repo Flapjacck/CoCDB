@@ -38,9 +38,9 @@ func New(cfg *config.Config) *chi.Mux {
 	loader := data.NewLoader(cfg.DataDir)
 
 	// --- Handlers ---
-	healthH := handler.NewHealthHandler(cfg.Version)
-	buildingsH := handler.NewBuildingsHandler(loader, appCache, cfg.Version)
-	troopsH := handler.NewTroopsHandler(loader, appCache, cfg.Version)
+	healthH := handler.NewHealthHandler()
+	buildingsH := handler.NewBuildingsHandler(loader, appCache)
+	troopsH := handler.NewTroopsHandler(loader, appCache)
 	faviconH := handler.NewFaviconHandler("static/favicon.ico")
 
 	// --- Custom Error Handlers ---
@@ -52,12 +52,12 @@ func New(cfg *config.Config) *chi.Mux {
 	})
 
 	// --- Routes ---
-	r.Get("/", handler.RootHandler(cfg.Version))
+	r.Get("/", handler.RootHandler())
 	r.Method("GET", "/health", healthH)
 	r.Method("GET", "/favicon.ico", faviconH)
 
-	// Versioned API routes
-	r.Route("/api/v1", func(r chi.Router) {
+	// API routes
+	r.Route("/api", func(r chi.Router) {
 		// Building endpoints
 		r.Get("/buildings", buildingsH.ListCategories)
 		r.Get("/buildings/{category}", buildingsH.ListByCategory)

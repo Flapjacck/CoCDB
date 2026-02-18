@@ -21,7 +21,6 @@ type Config struct {
 	Environment string
 	LogLevel    string
 	DataDir     string
-	Version     string
 
 	// Cache settings
 	CacheTTL time.Duration
@@ -40,7 +39,6 @@ type Config struct {
 //   - ENVIRONMENT: Running environment (default: "development")
 //   - LOG_LEVEL: Logging level — debug, info, warn, error (default: "info")
 //   - DATA_DIR: Path to data directory (default: "data")
-//   - APP_VERSION: Application version string (default: "1.0.0")
 //   - CACHE_TTL: Cache time-to-live duration (default: "5m")
 //   - CORS_ORIGINS: Comma-separated allowed origins (default: "*")
 func Load() *Config {
@@ -52,7 +50,6 @@ func Load() *Config {
 		Environment:  getEnv("ENVIRONMENT", "development"),
 		LogLevel:     getEnv("LOG_LEVEL", "info"),
 		DataDir:      getEnv("DATA_DIR", "data"),
-		Version:      getEnv("APP_VERSION", "1.0.0"),
 		CacheTTL:     getDuration("CACHE_TTL", 5*time.Minute),
 		CORSOrigins:  strings.Split(getEnv("CORS_ORIGINS", "*"), ","),
 	}

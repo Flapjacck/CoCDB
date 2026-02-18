@@ -14,23 +14,22 @@ const troopsBase = "home_village/troops"
 
 // TroopsHandler serves troop-related API endpoints.
 type TroopsHandler struct {
-	loader  *data.Loader
-	cache   *cache.Cache
-	version string
+	loader *data.Loader
+	cache  *cache.Cache
 }
 
 // NewTroopsHandler creates a handler with the given data loader and cache.
-func NewTroopsHandler(loader *data.Loader, c *cache.Cache, version string) *TroopsHandler {
-	return &TroopsHandler{loader: loader, cache: c, version: version}
+func NewTroopsHandler(loader *data.Loader, c *cache.Cache) *TroopsHandler {
+	return &TroopsHandler{loader: loader, cache: c}
 }
 
-// ListCategories handles GET /api/v1/troops
+// ListCategories handles GET /api/troops
 // Returns all troop categories (elixir, dark_elixir, super) with item counts.
 func (h *TroopsHandler) ListCategories(w http.ResponseWriter, r *http.Request) {
 	const cacheKey = "troops:categories"
 
 	if cached, ok := h.cache.Get(cacheKey); ok {
-		Success(w, cached, &Meta{Version: h.version, Cached: true})
+		Success(w, cached, nil)
 		return
 	}
 
@@ -42,17 +41,17 @@ func (h *TroopsHandler) ListCategories(w http.ResponseWriter, r *http.Request) {
 	}
 
 	h.cache.Set(cacheKey, categories)
-	Success(w, categories, &Meta{Version: h.version, Cached: false})
+	Success(w, categories, nil)
 }
 
-// ListByCategory handles GET /api/v1/troops/{category}
+// ListByCategory handles GET /api/troops/{category}
 // Returns all troops within a specific category.
 func (h *TroopsHandler) ListByCategory(w http.ResponseWriter, r *http.Request) {
 	category := chi.URLParam(r, "category")
 	cacheKey := "troops:list:" + category
 
 	if cached, ok := h.cache.Get(cacheKey); ok {
-		Success(w, cached, &Meta{Version: h.version, Cached: true})
+		Success(w, cached, nil)
 		return
 	}
 
@@ -63,10 +62,10 @@ func (h *TroopsHandler) ListByCategory(w http.ResponseWriter, r *http.Request) {
 	}
 
 	h.cache.Set(cacheKey, items)
-	Success(w, items, &Meta{Version: h.version, Cached: false})
+	Success(w, items, nil)
 }
 
-// GetTroop handles GET /api/v1/troops/{category}/{name}
+// GetTroop handles GET /api/troops/{category}/{name}
 // Returns full data for a specific troop.
 func (h *TroopsHandler) GetTroop(w http.ResponseWriter, r *http.Request) {
 	category := chi.URLParam(r, "category")
@@ -74,7 +73,7 @@ func (h *TroopsHandler) GetTroop(w http.ResponseWriter, r *http.Request) {
 	cacheKey := "troops:item:" + category + ":" + name
 
 	if cached, ok := h.cache.Get(cacheKey); ok {
-		Success(w, cached, &Meta{Version: h.version, Cached: true})
+		Success(w, cached, nil)
 		return
 	}
 
@@ -85,5 +84,5 @@ func (h *TroopsHandler) GetTroop(w http.ResponseWriter, r *http.Request) {
 	}
 
 	h.cache.Set(cacheKey, item)
-	Success(w, item, &Meta{Version: h.version, Cached: false})
+	Success(w, item, nil)
 }

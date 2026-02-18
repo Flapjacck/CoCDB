@@ -30,68 +30,41 @@ The API starts on `http://localhost:3000`
 | Method | Path           | Description                          |
 |--------|----------------|--------------------------------------|
 | GET    | `/`            | API information and available routes |
-| GET    | `/health`      | Health check with uptime and version |
+| GET    | `/health`      | Health check with uptime info      |
 | GET    | `/favicon.ico` | Favicon (place file in `static/`)    |
 
-### Buildings — `/api/v1/buildings`
+### Buildings — `/api/buildings`
 
-| Method | Path                                  | Description                     |
-|--------|---------------------------------------|---------------------------------|
-| GET    | `/api/v1/buildings`                   | List all building categories    |
-| GET    | `/api/v1/buildings/{category}`        | List buildings in a category    |
-| GET    | `/api/v1/buildings/{category}/{name}` | Get a specific building's data  |
+| Method | Path                                 | Description                     |
+|--------|--------------------------------------|---------------------------------|
+| GET    | `/api/buildings`                     | List all building categories    |
+| GET    | `/api/buildings/{category}`          | List buildings in a category    |
+| GET    | `/api/buildings/{category}/{name}`   | Get a specific building's data  |
 
 **Categories:** `army`, `defensive`, `resource`, `traps`
 
 **Examples:**
 
 ```bash
-curl http://localhost:3000/api/v1/buildings
-curl http://localhost:3000/api/v1/buildings/defensive/cannon
+curl http://localhost:3000/api/buildings
+curl http://localhost:3000/api/buildings/defensive/cannon
 ```
 
-### Troops — `/api/v1/troops`
+### Troops — `/api/troops`
 
-| Method | Path                               | Description                  |
-|--------|-------------------------------------|------------------------------|
-| GET    | `/api/v1/troops`                   | List all troop categories    |
-| GET    | `/api/v1/troops/{category}`        | List troops in a category    |
-| GET    | `/api/v1/troops/{category}/{name}` | Get a specific troop's data  |
+| Method | Path                              | Description                  |
+|--------|-----------------------------------|------------------------------|
+| GET    | `/api/troops`                     | List all troop categories    |
+| GET    | `/api/troops/{category}`          | List troops in a category    |
+| GET    | `/api/troops/{category}/{name}`   | Get a specific troop's data  |
 
 **Categories:** `elixir`, `dark_elixir`, `super`
 
 **Examples:**
 
 ```bash
-curl http://localhost:3000/api/v1/troops
-curl http://localhost:3000/api/v1/troops/elixir
-```
-
-### Response Format
-
-All responses use a consistent JSON envelope:
-
-```json
-{
-  "status": "success",
-  "data": { ... },
-  "meta": {
-    "version": "1.0.0",
-    "cached": false
-  }
-}
-```
-
-Error responses:
-
-```json
-{
-  "status": "error",
-  "error": {
-    "code": 404,
-    "message": "building not found: nonexistent"
-  }
-}
+curl http://localhost:3000/api/troops
+curl http://localhost:3000/api/troops/elixir
 ```
 
 ## Configuration
@@ -104,7 +77,6 @@ All settings are controlled via environment variables. Copy `.env.example` to `.
 | `ENVIRONMENT`   | `development` | `development` or `production`        |
 | `LOG_LEVEL`     | `info`        | `debug`, `info`, `warn`, `error`     |
 | `DATA_DIR`      | `data`        | Path to the JSON data directory      |
-| `APP_VERSION`   | `1.0.0`       | Version string returned by the API   |
 | `CACHE_TTL`     | `5m`          | Cache time-to-live (Go duration)     |
 | `CORS_ORIGINS`  | `*`           | Comma-separated allowed CORS origins |
 | `READ_TIMEOUT`  | `10s`         | HTTP read timeout                    |

@@ -17,8 +17,7 @@ type APIResponse struct {
 
 // Meta provides additional response metadata.
 type Meta struct {
-	Version string `json:"version"`
-	Cached  bool   `json:"cached"`
+	Cached bool `json:"cached"`
 }
 
 // ErrorResponse is the standard envelope for error responses.
