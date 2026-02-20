@@ -58,15 +58,18 @@ func New(cfg *config.Config) *chi.Mux {
 
 	// API routes
 	r.Route("/api", func(r chi.Router) {
-		// Building endpoints
-		r.Get("/buildings", buildingsH.ListCategories)
-		r.Get("/buildings/{category}", buildingsH.ListByCategory)
-		r.Get("/buildings/{category}/{name}", buildingsH.GetBuilding)
+		// Base-specific routes
+		r.Route("/{base}", func(r chi.Router) {
+			// Building endpoints
+			r.Get("/buildings", buildingsH.ListCategories)
+			r.Get("/buildings/{category}", buildingsH.ListByCategory)
+			r.Get("/buildings/{category}/{name}", buildingsH.GetBuilding)
 
-		// Troop endpoints
-		r.Get("/troops", troopsH.ListCategories)
-		r.Get("/troops/{category}", troopsH.ListByCategory)
-		r.Get("/troops/{category}/{name}", troopsH.GetTroop)
+			// Troop endpoints
+			r.Get("/troops", troopsH.ListCategories)
+			r.Get("/troops/{category}", troopsH.ListByCategory)
+			r.Get("/troops/{category}/{name}", troopsH.GetTroop)
+		})
 	})
 
 	return r

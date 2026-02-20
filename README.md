@@ -33,38 +33,45 @@ The API starts on `http://localhost:3000`
 | GET    | `/health`      | Health check with uptime info      |
 | GET    | `/favicon.ico` | Favicon (place file in `static/`)    |
 
-### Buildings — `/api/buildings`
+### Buildings — `/api/{base}/buildings`
 
-| Method | Path                                 | Description                     |
-|--------|--------------------------------------|---------------------------------|
-| GET    | `/api/buildings`                     | List all building categories    |
-| GET    | `/api/buildings/{category}`          | List buildings in a category    |
-| GET    | `/api/buildings/{category}/{name}`   | Get a specific building's data  |
+| Method | Path                                        | Description                     |
+|--------|--------------------------------------------|---------------------------------|
+| GET    | `/api/{base}/buildings`                    | List all building categories    |
+| GET    | `/api/{base}/buildings/{category}`         | List buildings in a category    |
+| GET    | `/api/{base}/buildings/{category}/{name}`  | Get a specific building's data  |
+
+**Bases:** `home_village`, `builder_base`
 
 **Categories:** `army`, `defensive`, `resource`, `traps`
 
 **Examples:**
 
 ```bash
-curl http://localhost:3000/api/buildings
-curl http://localhost:3000/api/buildings/defensive/cannon
+curl http://localhost:3000/api/home_village/buildings
+curl http://localhost:3000/api/home_village/buildings/defensive
+curl http://localhost:3000/api/home_village/buildings/defensive/cannon
+curl http://localhost:3000/api/builder_base/buildings
 ```
 
-### Troops — `/api/troops`
+### Troops — `/api/{base}/troops`
 
-| Method | Path                              | Description                  |
-|--------|-----------------------------------|------------------------------|
-| GET    | `/api/troops`                     | List all troop categories    |
-| GET    | `/api/troops/{category}`          | List troops in a category    |
-| GET    | `/api/troops/{category}/{name}`   | Get a specific troop's data  |
+| Method | Path                                   | Description                  |
+|--------|----------------------------------------|------------------------------|
+| GET    | `/api/{base}/troops`                   | List all troop categories    |
+| GET    | `/api/{base}/troops/{category}`        | List troops in a category    |
+| GET    | `/api/{base}/troops/{category}/{name}` | Get a specific troop's data  |
+
+**Bases:** `home_village`, `builder_base`
 
 **Categories:** `elixir`, `dark_elixir`, `super`
 
 **Examples:**
 
 ```bash
-curl http://localhost:3000/api/troops
-curl http://localhost:3000/api/troops/elixir
+curl http://localhost:3000/api/home_village/troops
+curl http://localhost:3000/api/home_village/troops/elixir
+curl http://localhost:3000/api/builder_base/troops
 ```
 
 ## Configuration
