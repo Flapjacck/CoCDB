@@ -1,0 +1,19 @@
+# Executable files
+*.exe
+*.exe~
+
+# Build outputs
+/dist
+/build
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
